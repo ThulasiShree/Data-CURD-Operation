@@ -8,10 +8,9 @@ function App() {
   return (
     <div className="App">
       <h2>Curd Operations</h2>
-      <h3>Type in url "/create"</h3><br/>
       <BrowserRouter>
         <Routes>
-          <Route path='/create' element={<Create/>}/>
+          <Route path='/' element={<Create/>}/>
           <Route path='/read' element={<Read/>}/>
           <Route path='/update' element={<Update/>}/>
         </Routes>
